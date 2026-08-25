@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ms">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>36,000 Muah Muahhs</title>
+    <title>36,000 Muah Muahh</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,7 +36,7 @@
             max-width: 800px;
             width: 100%;
             padding: 20px;
-            max-height: 60vh;
+            max-height: 70vh;
             overflow-y: auto;
             word-break: break-all;
             line-height: 1.8;
@@ -50,61 +50,32 @@
             font-size: 0.9rem;
             color: #666;
         }
-        button {
-            background-color: #e91e63;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 1rem;
-            border-radius: 25px;
-            cursor: pointer;
-            box-shadow: 0 4px 10px rgba(233, 30, 99, 0.3);
-            transition: background 0.2s, transform 0.1s;
-            margin-top: 15px;
-        }
-        button:hover {
-            background-color: #c2185b;
-            transform: translateY(-2px);
-        }
-        button:active {
-            transform: translateY(0);
-        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>💋 36,000 Muah Muahhs 💋</h1>
-        <p class="subtitle">An endless stream of affection!</p>
+        <h1>💋 36,000 Muah Muahh 💋</h1>
+        <p class="subtitle">Tatal ke bawah untuk melihat semuanya!</p>
     </header>
 
     <div class="container" id="contentBox">
     </div>
 
-    <button onclick="copyText()">Copy All to Clipboard</button>
-
     <div class="footer">
-        <p>Made with ❤️ and endless kisses.</p>
+        <p>Dibuat dengan penuh kasih sayang ❤️</p>
     </div>
 
     <script>
         const phrase = "muah muahh ";
         const totalCount = 36000;
-        ing
+        
         let fullText = "";
         for (let i = 0; i < totalCount; i++) {
             fullText += phrase;
         }
 
         document.getElementById("contentBox").innerText = fullText;
-
-        function copyText() {
-            navigator.clipboard.writeText(fullText).then(() => {
-                alert("All 36,000 muah muahhs copied to your clipboard!");
-            }).catch(err => {
-                alert("Failed to copy text.");
-            });
-        }
     </script>
 
 </body>
